@@ -17,10 +17,10 @@ class AStarNode:
     def get_y(self):
         return self.y
 
-    def set_x(self, x):
+    def set_x(self, x: float):
         self.x = x
 
-    def set_y(self, y:float):
+    def set_y(self, y: float):
         self.y = y
 
     def get_g_cost(self):
