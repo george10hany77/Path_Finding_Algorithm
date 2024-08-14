@@ -6,11 +6,14 @@ class PathFinding:
     DIAGONAL_COST = 14
     STRAIGHT_COST = 10
 
-    def __init__(self, width, height, obstacles: list[AStarNode]):
+    def __init__(self, width, height):
         self.open_list = []
         self.closed_list = []
         self.grid = [[AStarNode(j, i) for j in range(width)] for i in range(height)]
+        self.width = width
+        self.height = height
 
+    def add_obstacles(self, obstacles):
         if obstacles:
             for obstacle in obstacles:
                 x = obstacle.get_x()
@@ -20,16 +23,6 @@ class PathFinding:
                     self.closed_list.append(self.grid[y][x])
                 except IndexError:
                     print("Error !")
-
-    def add_obstacles(self, obstacles):
-        for obstacle in obstacles:
-            x = obstacle.get_x()
-            y = obstacle.get_y()
-            try:
-                self.grid[y][x].set_is_walkable(False)
-                self.closed_list.append(self.grid[y][x])
-            except IndexError:
-                print("Error !")
 
     def calc_distance(self, start_node, end_node):
         x_diff = abs(start_node.get_x() - end_node.get_x())
