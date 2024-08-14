@@ -19,7 +19,6 @@ def main(args):
     end = AStarNode(5, 4)
     path = PathFinding(11, 11)
     path.add_obstacles(obstacles)
-    path.add_obstacles(obstacles)
     print(path.a_star(start, end))
 
 
