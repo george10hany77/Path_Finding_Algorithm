@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1d62350-ec66-40df-9705-69e3b180352c" name="Changes" comment="modifying some minor changes">
+    <list default="true" id="b1d62350-ec66-40df-9705-69e3b180352c" name="Changes" comment="modifying some minor changes 2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AStarNode.py" beforeDir="false" afterPath="$PROJECT_DIR$/AStarNode.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PathFinding.py" beforeDir="false" afterPath="$PROJECT_DIR$/PathFinding.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +68,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1723598216433</updated>
-      <workItem from="1723598223457" duration="3237000" />
+      <workItem from="1723598223457" duration="4449000" />
     </task>
     <task id="LOCAL-00001" summary="uploading the files">
       <option name="closed" value="true" />
@@ -92,7 +94,23 @@
       <option name="project" value="LOCAL" />
       <updated>1723603442166</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="modifying some minor changes 2">
+      <option name="closed" value="true" />
+      <created>1723603855841</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1723603855841</updated>
+    </task>
+    <task id="LOCAL-00005" summary="modifying some minor changes 2">
+      <option name="closed" value="true" />
+      <created>1723604346454</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1723604346454</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,7 +119,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="uploading the files" />
     <MESSAGE value="modifying some minor changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="modifying some minor changes" />
+    <MESSAGE value="modifying some minor changes 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="modifying some minor changes 2" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Path_Finding$main.coverage" NAME="main Coverage Results" MODIFIED="1723603108874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

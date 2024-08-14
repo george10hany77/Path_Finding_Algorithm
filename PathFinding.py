@@ -154,6 +154,13 @@ class PathFinding:
 
         return neighbors
 
+    def map(self, node: AStarNode):  # works with turtlesim's map ONLY !!
+        node.set_y(self.height - node.get_y)
+
+    def map(self, list: list[AStarNode]):
+        for node in list:
+            self.map(node)
+
     def get_lowest_open_node(self) -> AStarNode:
         return min(self.open_list, key=lambda node: node.get_f_cost())
 
